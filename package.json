@@ -18,6 +18,8 @@
     "**/*.{less,sass,css}": "stylelint --syntax less"
   },
   "dependencies": {
+    "monkey-demo": "link:",
+    "naive-ui": "^2.34.3",
     "vue": "^3.2.45"
   },
   "devDependencies": {

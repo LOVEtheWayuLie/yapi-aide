@@ -9,8 +9,11 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue';
 import { ref } from 'vue';
+import { ApiPreviewSetup } from './pages/ApiPreview';
 
 const visible = ref(false);
+
+ApiPreviewSetup();
 </script>
 
 <style lang="less">
