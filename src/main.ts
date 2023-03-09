@@ -1,4 +1,5 @@
 import './styles';
+import jq from 'jquery';
 import { addHistoryListener } from './utils/listen-history';
 import { createApp } from 'vue';
 import App from './App.vue';
@@ -17,3 +18,5 @@ addHistoryListener('history', () => {
   console.log('监听到路由变化');
   pageInit();
 });
+
+window.$ = jq;

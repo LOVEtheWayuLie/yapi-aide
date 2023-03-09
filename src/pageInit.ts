@@ -1,6 +1,8 @@
-/** 页面初始化操作 */
+import { ApiPreviewSetup } from './pages/ApiPreview';
+
+/** 页面初始化操作, 组件需要自处理防多次初始化 */
 export function pageInit() {
-  //   document
-  //     .querySelectorAll('.ant-table-row-collapsed, .ant-table-row-expanded')
-  //     .forEach((dom) => (dom as HTMLElement).click());
+  setTimeout(() => {
+    ApiPreviewSetup();
+  }, 500);
 }

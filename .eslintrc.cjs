@@ -17,5 +17,9 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 0,
     /** 变量后边换行 */
     'newline-after-var': 1,
+    /** 相同作用域禁止同名变量 */
+    '@typescript-eslint/no-shadow': 2,
+    /** ts 类型允许!，表示必定不会undefined */
+    '@typescript-eslint/no-non-null-assertion': 0,
   },
 };
