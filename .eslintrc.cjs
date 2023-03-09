@@ -21,5 +21,7 @@ module.exports = {
     '@typescript-eslint/no-shadow': 2,
     /** ts 类型允许!，表示必定不会undefined */
     '@typescript-eslint/no-non-null-assertion': 0,
+    /** ts 类型必须type导入 */
+    '@typescript-eslint/consistent-type-imports': 2,
   },
 };

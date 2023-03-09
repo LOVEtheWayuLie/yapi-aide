@@ -1,5 +1,5 @@
 import { vueMount } from '@/utils';
-import { App } from 'vue';
+import type { App } from 'vue';
 import ApiPreview from './ApiPreview.vue';
 import $ from 'jquery';
 
